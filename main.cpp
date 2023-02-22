@@ -21,9 +21,8 @@ string nit,nombres,apellidos,direccion, codigo, puesto;
 	cin>> telefono;
 	cout<<"ingrese la fecha de naciniento: ";
 	cin>>fecha;
-	Empleado obj = Empleado(nombres,apellidos,direccion,telefono,nit,fecha,codigo,puesto); 
-	obj.mostrar();
-	
+	Empleado obj = Empleado(nombres,apellidos,direccion,fecha,telefono,puesto,codigo);
+	obj.mostrar()
 	//cout<<"Datos del Empleado: "<<obj.getNit()<<","<<obj.getnNombres()<<","<<obj.getApellidos()<<","<<obj.getDireccion()<<","<<obj.getTelefono()<<","<<obj.getFecha()<<","<<obj.getCodigo()<<","<<obj.Puesto()<<endl; 
 	
 }
